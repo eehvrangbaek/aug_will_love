@@ -1,6 +1,6 @@
 # Repository for "What is Love Other Than Will?"
 
-This repository contains code and metadata for the PhD-dissertation, "What Is Love Other Than Will  - An Investigation of Augustine’s Concept of Love and Will Assisted by Computational Methods" by Eva Elisabeth Houth Vrangbæk
+This repository contains code and metadata for the PhD-dissertation, "What Is Love Other Than Will  - An Investigation of Augustine’s Concept of Love and Will Assisted by Computational Methods" by Eva Elisabeth Houth Vrangbæk, Aarhus University, 2024.
 
 ## Description of the Tool
 
@@ -19,7 +19,4 @@ Access the file "timeline.py" in the folder "src" to inspect the code.
 ### 3. Lemmatiser 
 This function utilises the Classical Language Toolkit (cltk).
 
-
-
-
-The code is developed in collaboration with Center for Humanitites Computing, Aarhus University
+The code is developed in collaboration with Center for Humanitites Computing, Aarhus University.

@@ -1,28 +1,22 @@
-# augustine-will
+# Repository for "What is Love Other Than Will?"
 
-Serveren til semantisk graphtegner baseret på Augustine-Will teksterne
+This repository contains code and metadata for the PhD-dissertation, "What Is Love Other Than Will  - An Investigation of Augustine’s Concept of Love and Will Assisted by Computational Methods" by Eva Elisabeth Houth Vrangbæk
 
-## Sådan virker værktøjet:
+## Description of the Tool
 
-Værktøjet har to separate funktioner:
+The tool has two separate functions
 
-1. Semantisk graph
-2. Ordanalyse
+1. Semantic Kernel Analysis based on Word2vec
+2. Quantitative Word Analysis
+3. Lemmatiser
 
-### 1. Semantisk graph
+### 1. Semantic Kernel
+Access the files "main.py" and "graph.py" in the folder "src" to inspect the code.
 
-- Graphen tegnes baseret på en **word2vec** model fil der skal indsættes til folderen `/dat`.
-- Når en bruger taster nogle ord ind til værktøjet de bliver lemmatiseret med lemmatizeren i `latin.py` og anvendt som **seeds** til en semantisk kernel
-- Oprettelsen af en semantisk kernel:
-  1. _k_ ord der er tættest på **seederne** samles til en liste, de bliver kaldt for kernellens **types**
-  2. _m_ ord der er tættest på **types** samles
-  3. Alle de her ord sættes sammen til en liste, **types** og **seeds** med store bogstaver
-  4. En graph tegnes til alle de ord man får ud af denne process
+### 2. Word Analysis
+Access the file "timeline.py" in the folder "src" to inspect the code.
 
-### 2. Ordanalyse
+### 3. Lemmatiser 
+This function utilises the Classical Language Toolkit (cltk).
 
-- `/dat/token_table.csv` anvendes til at se på ordbrug i corpus. Denne fil skal forudberegnes
-- **seederne** bliver anvendt som de kommer, de bliver ikke lemmatiseret
-- To grapher tegnes:
-  1. Ordforbrug i alt af **seederne**
-  2. Ordborbrug over tiden enten med absolute tal eller procentvis
+The code is developed in collaboration with Center for Humanitites Computing, Aarhus University

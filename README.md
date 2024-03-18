@@ -19,4 +19,7 @@ Access the file "timeline.py" in the folder "src" to inspect the code.
 ### 3. Lemmatiser 
 This function utilises the Classical Language Toolkit (cltk).
 
+
+
+
 The code is developed in collaboration with Center for Humanitites Computing, Aarhus University
